@@ -1,0 +1,41 @@
+button,
+input {
+  border: none;
+  outline: none;
+  box-sizing: none;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  align-items: center;
+  flex-direction: column;
+}
+.main input {
+  padding: 12px;
+  border-radius: 10px 0px 0px 10px;
+  border: 1px solid #5cec0a;
+  font-weight: bold;
+  font-size: 1.19rem;
+}
+
+.main button {
+  padding: 12px;
+  border-radius: 0px 10px 10px 0px;
+  background: #5cec0a;
+  font-weight: bold;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-left: 1px;
+}
+
+input::placeholder {
+  color: #e1e1e1;
+}
+
+.main input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
