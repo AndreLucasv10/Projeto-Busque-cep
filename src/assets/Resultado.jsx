@@ -11,11 +11,13 @@ const Resultado = ({ valor }) => {
   );
   return (
     <div className="info-cep">
-      {cep.cep && <p>cep: {cep.cep}</p>}
-      {cep.logradouro && <p>logradouro: {cep.logradouro}</p>}
-      {cep.bairro && <p>bairro: {cep.bairro}</p>}
-      {cep.localidade && <p>localidade: {cep.localidade}</p>}
-      {cep.ddd && <p>ddd: {cep.ddd}</p>}
+      <div>
+      {cep.cep && <p>CEP: {cep.cep}</p>}
+      {cep.logradouro && <p>LOGRADOURO: {cep.logradouro}</p>}
+      {cep.bairro && <p>BAIRRO: {cep.bairro}</p>}
+      </div>
+      {cep.localidade && <p>LOCALIDADE: {cep.localidade}</p>}
+      {cep.ddd && <p>DDD: {cep.ddd}</p>}
     </div>
   );
 };

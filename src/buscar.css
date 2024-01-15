@@ -22,12 +22,12 @@ input {
 }
 
 .main button {
-  padding: 12px;
+  padding: 13px;
   border-radius: 0px 10px 10px 0px;
   background: #5cec0a;
   font-weight: bold;
   color: white;
-  font-size: 1.1rem;
+  font-size: 1.19rem;
   cursor: pointer;
   margin-left: 1px;
 }
@@ -38,4 +38,11 @@ input::placeholder {
 
 .main input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
+}
+
+.div-resultado{
+  background-color: #5cec0a;
+  padding: 32px;
+  margin-top: 30px;
+  border-radius: 42px;
 }

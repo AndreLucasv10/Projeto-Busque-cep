@@ -5,7 +5,6 @@ import "/src/buscar.css";
 const Buscar = () => {
   const [valor, setValor] = useState("");
   const [resultado, setResultado] = useState(null);
-
   const handleClick = () => {
     setResultado(valor);
   };
