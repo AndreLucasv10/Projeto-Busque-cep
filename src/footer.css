@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    justify-content: center;
+    background: #5cec0a;
+    color: white;
+    margin-top: 200px;
+    padding: 10px;
+     }
+
+footer p {
+    font-weight: bold;
+    font-size: 1.2rem;
+}

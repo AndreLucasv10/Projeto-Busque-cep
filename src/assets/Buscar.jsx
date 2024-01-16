@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import Resultado from "./resultado";
+import Resultado from "./Resultado";
 import "/src/buscar.css";
 const Buscar = () => {
   const [valor, setValor] = useState("");
