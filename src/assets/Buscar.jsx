@@ -24,6 +24,7 @@ const Buscar = () => {
       <div className="div-resultado">
         <Resultado valor={resultado} />
       </div>
+
     </main>
   );
 };
